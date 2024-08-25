@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/elections-draft/static/css/main.984c783b.css",
-    "main.js": "/elections-draft/static/js/main.21be2a57.js",
-    "static/js/592.997fb53e.chunk.js": "/elections-draft/static/js/592.997fb53e.chunk.js",
-    "static/media/PlayfairDisplay-MediumItalic.ttf": "/elections-draft/static/media/PlayfairDisplay-MediumItalic.8a8a4356b4d001468b59.ttf",
-    "static/media/Metropolis-ExtraBoldItalic.ttf": "/elections-draft/static/media/Metropolis-ExtraBoldItalic.831da749d4b830d6ebfe.ttf",
-    "static/media/Metropolis-SemiBoldItalic.ttf": "/elections-draft/static/media/Metropolis-SemiBoldItalic.12536327fc42546c1ff1.ttf",
-    "static/media/Metropolis-BoldItalic.ttf": "/elections-draft/static/media/Metropolis-BoldItalic.605e74ad87397270f276.ttf",
-    "static/media/Metropolis-RegularItalic.ttf": "/elections-draft/static/media/Metropolis-RegularItalic.ba7f02a5156ac3ee3370.ttf",
-    "static/media/Metropolis-Regular.ttf": "/elections-draft/static/media/Metropolis-Regular.3e96c38bc01555998420.ttf",
-    "static/media/Metropolis-SemiBold.ttf": "/elections-draft/static/media/Metropolis-SemiBold.6cecad786ead3ee71218.ttf",
-    "static/media/Metropolis-ExtraBold.ttf": "/elections-draft/static/media/Metropolis-ExtraBold.7df160fef8980791a36b.ttf",
-    "static/media/Metropolis-Bold.ttf": "/elections-draft/static/media/Metropolis-Bold.757ca8bef5ee90fd406c.ttf",
-    "static/media/DMSerifText-Italic.ttf": "/elections-draft/static/media/DMSerifText-Italic.a9c34fee60668888d0f8.ttf",
-    "static/media/Chromate-Regular.ttf": "/elections-draft/static/media/Chromate-Regular.30d08004521c65b0fa0f.ttf",
-    "index.html": "/elections-draft/index.html",
-    "main.984c783b.css.map": "/elections-draft/static/css/main.984c783b.css.map",
-    "main.21be2a57.js.map": "/elections-draft/static/js/main.21be2a57.js.map",
-    "592.997fb53e.chunk.js.map": "/elections-draft/static/js/592.997fb53e.chunk.js.map"
+    "main.css": "/election-drafts/static/css/main.a581bafe.css",
+    "main.js": "/election-drafts/static/js/main.9c176986.js",
+    "static/js/592.6ca3410c.chunk.js": "/election-drafts/static/js/592.6ca3410c.chunk.js",
+    "static/media/PlayfairDisplay-MediumItalic.ttf": "/election-drafts/static/media/PlayfairDisplay-MediumItalic.8a8a4356b4d001468b59.ttf",
+    "static/media/Metropolis-ExtraBoldItalic.ttf": "/election-drafts/static/media/Metropolis-ExtraBoldItalic.831da749d4b830d6ebfe.ttf",
+    "static/media/Metropolis-SemiBoldItalic.ttf": "/election-drafts/static/media/Metropolis-SemiBoldItalic.12536327fc42546c1ff1.ttf",
+    "static/media/Metropolis-BoldItalic.ttf": "/election-drafts/static/media/Metropolis-BoldItalic.605e74ad87397270f276.ttf",
+    "static/media/Metropolis-RegularItalic.ttf": "/election-drafts/static/media/Metropolis-RegularItalic.ba7f02a5156ac3ee3370.ttf",
+    "static/media/Metropolis-Regular.ttf": "/election-drafts/static/media/Metropolis-Regular.3e96c38bc01555998420.ttf",
+    "static/media/Metropolis-SemiBold.ttf": "/election-drafts/static/media/Metropolis-SemiBold.6cecad786ead3ee71218.ttf",
+    "static/media/Metropolis-ExtraBold.ttf": "/election-drafts/static/media/Metropolis-ExtraBold.7df160fef8980791a36b.ttf",
+    "static/media/Metropolis-Bold.ttf": "/election-drafts/static/media/Metropolis-Bold.757ca8bef5ee90fd406c.ttf",
+    "static/media/DMSerifText-Italic.ttf": "/election-drafts/static/media/DMSerifText-Italic.a9c34fee60668888d0f8.ttf",
+    "static/media/Chromate-Regular.ttf": "/election-drafts/static/media/Chromate-Regular.30d08004521c65b0fa0f.ttf",
+    "index.html": "/election-drafts/index.html",
+    "main.a581bafe.css.map": "/election-drafts/static/css/main.a581bafe.css.map",
+    "main.9c176986.js.map": "/election-drafts/static/js/main.9c176986.js.map",
+    "592.6ca3410c.chunk.js.map": "/election-drafts/static/js/592.6ca3410c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.984c783b.css",
-    "static/js/main.21be2a57.js"
+    "static/css/main.a581bafe.css",
+    "static/js/main.9c176986.js"
   ]
 }
