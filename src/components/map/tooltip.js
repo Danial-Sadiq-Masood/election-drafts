@@ -64,7 +64,7 @@ export default function Tooltip({ showTooltip, toolTipData, votesKey }) {
     }
   }, [toolTipData]);
 
-  const { seatData, data, position, turnout, officialMargin, form45Margin } = innerData;
+  const { seatData, data, position, turnout, officialMargin, form45Margin, voteDiffProp } = innerData;
 
   //let margin = votesKey === 'actualVotes' ? form45Margin : officialMargin;
   //margin = margin * 100;
@@ -96,6 +96,7 @@ export default function Tooltip({ showTooltip, toolTipData, votesKey }) {
             loc={seatData.loc}
             margin={margin}
             turnout={turnout}
+            voteDiffProp={voteDiffProp}
           />
           {!winner && !loser && <p>Election Postponed</p>}
           {winner && (
@@ -244,7 +245,7 @@ const LocationContainer = styled.div`
   }
 `;
 
-function TopPanel({ seat, loc, turnout, margin }) {
+function TopPanel({ seat, loc, turnout, margin, voteDiffProp }) {
   return (
     <TopPanelContainer>
       <LocationContainer>
@@ -254,7 +255,7 @@ function TopPanel({ seat, loc, turnout, margin }) {
 
       <LocationContainer>
         <p className="percentages">
-          <span>Margin of Victory:</span> {margin === "N/A" ? margin : `${margin}`}
+          <span>Vote Swing:</span> {(voteDiffProp * 100).toFixed(2)} %
         </p>
       </LocationContainer>
     </TopPanelContainer>

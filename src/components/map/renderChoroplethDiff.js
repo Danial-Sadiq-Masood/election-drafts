@@ -54,7 +54,7 @@ export default function RenderChoropleth() {
             return d ? d.seat : this.attributes['data-seat-num'].textContent;
         })
             .style('fill', (d) => {
-                return diffScale(getWinner(d.result, 'declaredVotes').voteDifference);
+                return diffScale(d.voteDiffProp);
             })
             .style('cursor', 'pointer')
             .on(
@@ -75,7 +75,8 @@ export default function RenderChoropleth() {
                         officialMargin: d.officialMargin,
                         form45Margin: d.form45Margin,
                         voteDifferencePercent : d.voteDifference,
-                        voteDifferenceAbs : d.voteDifferenceAbs
+                        voteDifferenceAbs : d.voteDifferenceAbs,
+                        voteDiffProp : d.voteDiffProp
                     });
 
 

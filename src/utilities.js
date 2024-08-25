@@ -9,6 +9,10 @@ elections2024ECP.forEach(d => {
     e.voteDifference = Math.abs((e.declaredVotes - e.actualVotes)) / Math.max(e.declaredVotes, e.actualVotes);
     e.voteDifferenceAbs = Math.abs(e.declaredVotes - e.actualVotes);
   })
+  d.voteDiff = d.result
+    .reduce((acc,d) => acc + d.voteDifferenceAbs, 0);
+  let totalvotes = d.result.reduce((acc,d) => acc + Math.max(d.actualVotes, d.declaredVotes),0)
+  d.voteDiffProp = d.voteDiff / totalvotes;
 })
 
 
